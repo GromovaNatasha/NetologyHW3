@@ -1,7 +1,6 @@
 import os
 os.getcwd()
 
-# Пример 2 - построение пути к файлу
 def get_dishes():
     file_path = os.path.join(os.getcwd(), 'dishes.txt') 
     cook_book = {}
@@ -46,7 +45,7 @@ def get_shop_list_by_dishes(dishes:list, person_count:int):
 result_2=get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'], 2)
 print(result_2)
 
-file_paths = ['1.txt', '2.txt', '3.txt']  # Replace with the paths to your text files
+file_paths = ['1.txt', '2.txt', '3.txt']  
 
 file_contents = []
 len_content=[]
